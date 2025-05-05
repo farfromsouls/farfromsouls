@@ -1,38 +1,54 @@
 {
+    // editor/terminal style
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#ffffff",
-        "editorCursor.background": "#ffffff"
+        "terminalCursor.foreground": "#ffffff",
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "editor.minimap.enabled": false,
     "editor.cursorSmoothCaretAnimation": "on",
-    "python.venvPath": "venv",
-    "files.autoSave": "afterDelay",
-    "workbench.startupEditor": "none",
-    "explorer.autoReveal": false,
-    "explorer.compactFolders": false,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorWidth": 2,
-    "breadcrumbs.enabled": false,
+
+    // terminal settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.suggest.enabled": true,
+
+    // editor settings
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": true,
     "explorer.confirmDelete": false,
     "workbench.editorAssociations": {
         "*.sqlite3": "sqlite3-editor.editor"
     },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "git.openRepositoryInParentFolders": "never",
+
+    // window
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "explorer.confirmDragAndDrop": false,
+    "chat.commandCenter.enabled": false,
+
+    // overall settings
+    "workbench.startupEditor": "none",
     "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+
+    // github
+    "git.openRepositoryInParentFolders": "never",
+    "git.blame.editorDecoration.enabled": true,
+
+    // python
+    "python.venvPath": "venv",
+
+    // c&c++
     "[cpp]": {
         "editor.wordBasedSuggestions": "off",
         "editor.semanticHighlighting.enabled": true,
         "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace"
     },
-    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
-    "git.blame.editorDecoration.enabled": true,
-    "window.zoomLevel": 2,
-    "update.showReleaseNotes": false,
-    "editor.fontSize": 16,
-    "explorer.confirmDragAndDrop": false,
-    "chat.commandCenter.enabled": false
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe"
 }
