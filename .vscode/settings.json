@@ -22,6 +22,9 @@
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": true,
     "explorer.confirmDelete": false,
+    "editor.unicodeHighlight.includeStrings": false,
+    "explorer.confirmPasteNative": false,
+    "errorLens.followCursor": "allLinesExceptActive",
     "workbench.editorAssociations": {
         "*.sqlite3": "sqlite3-editor.editor"
     },
@@ -43,6 +46,8 @@
 
     // python
     "python.venvPath": "venv",
+    "python.defaultInterpreterPath": "c:\\Users\\farfr\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python.createEnvironment.trigger": "off",
 
     // c&c++
     "[cpp]": {
@@ -51,5 +56,5 @@
         "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace"
     },
-    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe"
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
 }
