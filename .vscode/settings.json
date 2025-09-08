@@ -16,6 +16,7 @@
     "terminal.integrated.suggest.enabled": true,
 
     // editor settings
+    "editor.cursorSurroundingLines": 999,
     "editor.minimap.enabled": false,
     "explorer.autoReveal": false,
     "explorer.compactFolders": false,
