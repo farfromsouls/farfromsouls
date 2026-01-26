@@ -3,7 +3,6 @@
         "editorCursor.foreground": "#ffffff",
         "terminalCursor.foreground": "#ffffff",
     },
-    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "smooth",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
